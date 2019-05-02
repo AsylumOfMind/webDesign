@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>RMDb</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+        <style>
+            form :focus:required:invalid {
+                border-color: #a94442;
+                border-width: 1.5px;
+            }
+        </style>
+    </head>
+    <body class="container">
+        <header>
+            <h1><b>R</b>ating <b>M</b>ovie <b>D</b>ata<b>b</b>ase</h1>
+        </header>
+        <section>
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <form action="" data-movie-rating="form">
+                        <div class="form-group">
+                            <label for="titleInput">Movie Title</label>
+                            <input type="text" class="form-control" name="movieTitle" id="titleInput" autofocus value="Pulp Fiction" placeholder="Pulp Fiction" required patter"^([a-zA-Z0-9]+.?,?\s?)+$">
+                        </div>
+                        <div class="form-group">
+                            <label for="coffeeOrder">Director</label>
+                            <input  type="text" class="form-control" name="director" id="dirInput" value="Quentin Tarantino" placeholder="Quentin Tarantino" patter"^([a-zA-Z0-9]+.?,?\s?)+$">
+                        </div>
+                        <div class="form-group">
+                            <label for="coffeeOrder">Writers</label>
+                            <input  type="text" class="form-control" name="writers" id="wrInput" value="Quentin Tarantino, Roger Avary" placeholder="Quentin Tarantino, Roger Avary" patter"^([a-zA-Z0-9]+.?,?\s?)+$">
+                        </div>
+                        <div class="form-group">
+                            <label for="coffeeOrder">Stars</label>
+                            <input  type="text" class="form-control" name="stars" id="starInput" value="John Travolta, Uma Thurman, Samuel L. Jackson" placeholder="John Travolta, Uma Thurman, Samuel L. Jackson" patter"^([a-zA-Z0-9]+.?,?\s?)+$">
+                        </div>
+                        <div class="form-group">
+                            <label for="coffeeOrder">Storyline</label>
+                            <textarea class="form-control" name="storyline" id="slInput" rows="5">Jules Winnfield (Samuel L. Jackson) and Vincent Vega (John Travolta) are two hitmen who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace (Ving Rhames). Wallace has also asked Vincent to take his wife Mia (Uma Thurman) out a few days later when Wallace himself will be out of town. Butch Coolidge (Bruce Willis) is an aging boxer who is paid by Wallace to lose his fight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents.</textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="genreSelector">Genre</label>
+                            <select name="genre" id="genreSelector" class="form-control">
+                                <option value="comedy">Comedy</option>
+                                <option value="scifi">SciFi</option>
+                                <option value="horror">Horror</option>
+                                <option value="romance">Romance</option>
+                                <option value="action">Action</option>
+                                <option value="thriller">Thriller</option>
+                                <option value="drama">Drama</option>
+                                <option value="mystery">Mystery</option>
+                                <option value="crime" selected>Crime</option>
+                                <option value="animation">Animation</option>
+                                <option value="adventure">Adventure</option>
+                                <option value="fantasy">Fantasy</option>
+                                <option value="comedy-romance">Comedy-Romance</option>
+                                <option value="action-comedy">Action-Comedy</option>
+                                <option value="superhero">Superhero</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <!--<label for="date">Release Date</label>
+                            <input  type="date" class="form-control" name="date" id="dateInput" value="1994-10-14">-->
+                            <select class="form-control" name="date" id="dateInput"></select>
+                        </div>
+                        <div class="form-group">
+                            <!--<label for="strengthLevel">Star Rating</label>-->
+                            <input type="" name="rating" id="starRating" value="8.9" style= "width: 0px; height:0px; opacity: 0;" required>
+                            <p id="starSelector" style="font-size: 2em; color: blue; margin-top: -23px;">
+                              <span class="star" data-star-value="1">★</span>
+                              <span class="star" data-star-value="2">★</span>
+                              <span class="star" data-star-value="3">★</span>
+                              <span class="star" data-star-value="4">★</span>
+                              <span class="star" data-star-value="5">★</span>
+                              <span class="star" data-star-value="6">★</span>
+                              <span class="star" data-star-value="7">★</span>
+                              <span class="star" data-star-value="8">★</span>
+                              <span class="star" data-star-value="9">★</span>
+                              <span class="star" data-star-value="10">★</span>
+                              <label for="starSelector" style="font-weight: bold"></label>
+                            </p>
+                        </div>
+                        <div class="form-group">
+                            <label for="emailInput">Email</label>
+                            <input type="email" class="form-control" name="emailAddress" id="emailInput" value="user@rmdb.com" placeholder="user@rmdb.com" required>
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                        <button type="reset" class="btn btn-default">Reset</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h4 style="font-weight:bolder;">Pending Ratings:</h4>
+                    <div data-movie-rating="checklist" id="checklist"></div>
+                </div>
+            </div>
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js" charset="utf-8"></script>
+        <script src="scripts/validation.js" charset="utf-8"></script>
+        <script src="scripts/render.js" charset="utf-8"></script>
+        <script>
+            /* global $ */
+            var sel = document.getElementById("dateInput");
+            sel.options[25].selected = true;
+            $('.star:nth-of-type(9)').css('color','blue');
+            $('.star:nth-of-type(10)').css('color','grey');
+        </script>
+        <script src="scripts/checklist.js" charset="utf-8"></script>
+        <script src="scripts/formhandler.js" charset="utf-8"></script>
+        <script src="scripts/remotedatastore.js" charset="utf-8"></script>
+        <script src="scripts/datastore.js" charset="utf-8"></script>
+        <script src="scripts/server.js" charset="utf-8"></script>
+        <script src="scripts/main.js" charset="utf-8"></script>
+    </body>
+</html>

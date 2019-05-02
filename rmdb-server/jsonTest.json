@@ -1,0 +1,33 @@
+{
+  "resources": {
+    
+    "11dHLrePwpxW4iRBlNzbPQ==": {
+        "Hash":"11dHLrePwpxW4iRBlNzbPQ==",
+        "Key":"futurities-ambition.test",
+        "Tag":"empty",
+        "Locations":{
+       
+          "-122.676207,45.523452":{
+            "Country":"UNITED STATES",
+            "Coordinates":"-122.676207,45.523452"
+          },
+          "-4.482106,54.166997":{
+            "Country":"UNITED KINGDOM",
+            "Coordinates":"-4.482106,54.166997"
+          }
+        }  
+      },
+      "OVoHpnGmVDvfRz/p7Wca1g==": {  
+        "Hash":"OVoHpnGmVDvfRz/p7Wca1g==",
+        "Key":"scrolled-mollycoddled.test",
+        "Tag":"empty",
+        "Locations":{
+          "18.423346,-33.923776":{
+            "Country":"SOUTH AFRICA",
+            "Coordinates":"18.423346,-33.923776"
+          }
+        }  
+      }
+      
+  }  
+}  

@@ -1,0 +1,66 @@
+{
+  "ratings": 
+    {
+      "2d0a1e4a63b3ee#39": {
+        "_id": "2d0a1e4a63b3ee#39",
+        "movieTitle": "Pulp Fiction",
+        "director": "Quentin Tarantino",
+        "writers": "Chris Columbus",
+        "stars": "John Travolta, Uma Thurman, Samuel L. Jackson",
+        "storyline": "Jules Winnfield (Samuel L. Jackson) and Vincent Vega (John Travolta) are two hitmen who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace (Ving Rhames). Wallace has also asked Vincent to take his wife Mia (Uma Thurman) out a few days later when Wallace himself will be out of town. Butch Coolidge (Bruce Willis) is an aging boxer who is paid by Wallace to lose his fight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents.",
+        "genre": "crime",
+        "date": "1994",
+        "rating": "8.9",
+        "emailAddress": "strangeGuy47@rmdb.com"
+      },
+      "2b0f4d0fa7ffe2#39": {
+        "_id": "2b0f4d0fa7ffe2#39",
+        "movieTitle": "Gremlins",
+        "director": "Joe Dante",
+        "writers": "Chris Columbus",
+        "stars": "Zach Galligan, Phoebe Cates, Hoyt Axton",
+        "storyline": "Minature green monsters tear through the small town of Kingston Falls. Hijinks ensue as a mild-mannered bank teller releases these hideous loonies after gaining a new pet and violating two of three simple rules: No water (violated), no food after midnight (violated), and no bright light. Hilarious mayhem and destruction in a town straight out of Norman Rockwell. So, when your washing machine blows up or your TV goes on the fritz, before you call the repair man, turn on all the lights and look under all the beds. 'Cause you never can tell, there just might be a gremlin in your house.",
+        "genre": "horror",
+        "date": "1984",
+        "rating": "7.3",
+        "emailAddress": "newYorkYork@rmdb.com"
+      },
+      "17bff4053965fb#40": {
+        "_id": "17bff4053965fb#40",
+        "movieTitle": "Forrest Gump",
+        "director": "Robert Zemeckis",
+        "writers": "Winston Groom, Eric Roth",
+        "stars": "Tom Hanks, Robin Wright, Gary Sinise",
+        "storyline": "Forrest Gump is a simple man with a low I.Q. but good intentions. He is running through childhood with his best and only friend Jenny. His 'mama' teaches him the ways of life and leaves him to choose his destiny. Forrest joins the army for service in Vietnam, finding new friends called Dan and Bubba, he wins medals, creates a famous shrimp fishing fleet, inspires people to jog, starts a ping-pong craze, creates the smiley, writes bumper stickers and songs, donates to people and meets the president several times. However, this is all irrelevant to Forrest who can only think of his childhood sweetheart Jenny Curran, who has messed up her life. Although in the end all he wants to prove is that anyone can love anyone.",
+        "genre": "drama",
+        "date": "1994",
+        "rating": "8.8",
+        "emailAddress": "alabannaMan@rmdb.com"
+      },
+      "2d0e1a1ef91f58#39": {
+        "_id": "2d0e1a1ef91f58#39",
+        "movieTitle": "The Matrix",
+        "director": "Lana Wachowski, Lilly Wachowski",
+        "writers": "Lana Wachowski, Lilly Wachowski",
+        "stars": " Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss",
+        "storyline": "Thomas A. Anderson is a man living two lives. By day he is an average computer programmer and by night a hacker known as Neo. Neo has always questioned his reality, but the truth is far beyond his imagination. Neo finds himself targeted by the police when he is contacted by Morpheus, a legendary computer hacker branded a terrorist by the government. Morpheus awakens Neo to the real world, a ravaged wasteland where most of humanity have been captured by a race of machines that live off of the humans' body heat and electrochemical energy and who imprison their minds within an artificial reality known as the Matrix. As a rebel against the machines, Neo must return to the Matrix and confront the agents: super-powerful computer programs devoted to snuffing out Neo and the entire human rebellion.",
+        "genre": "action",
+        "date": "1999",
+        "rating": "8.7",
+        "emailAddress": "suupaMan9000@rmdb.com"
+      },
+      "2d0d19f386038c#39": {
+        "_id": "2d0d19f386038c#39",
+        "movieTitle": "Se7en",
+        "director": "David Fincher",
+        "writers": "Andrew Kevin Walker",
+        "stars": " Morgan Freeman, Brad Pitt, Kevin Spacey",
+        "storyline": "A film about two homicide detectives' (Morgan Freeman and Brad Pitt) desperate hunt for a serial killer who justifies his crimes as absolution for the world's ignorance of the Seven Deadly Sins. The movie takes us from the tortured remains of one victim to the next as the sociopathic \"John Doe\" (Kevin Spacey) sermonizes to Detectives Somerset and Mills -- one sin at a time. The sin of Gluttony comes first and the murderer's terrible capacity is graphically demonstrated in the dark and subdued tones characteristic of film noir. The seasoned and cultured but jaded Somerset researches the Seven Deadly Sins in an effort to understand the killer's modus operandi while the bright but green and impulsive Detective Mills (Pitt) scoffs at his efforts to get inside the mind of a killer...",
+        "genre": "crime",
+        "date": "1995",
+        "rating": "8.6",
+        "emailAddress": "spaceRacer555@speedRun.com"
+        
+      }
+    }
+}
